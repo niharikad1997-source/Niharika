@@ -31,4 +31,4 @@ FROM
         LEFT JOIN {{ config['table'] }} AS {{ config['alias'] }}
             ON {{ config['join_condition'] }}
     {% endif %}
-    {% endfor %}
+    {% endfor %} 
